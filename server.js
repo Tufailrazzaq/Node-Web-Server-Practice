@@ -41,7 +41,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
     res.render('home.hbs', {
         pageTitle:'Home Page',
-        welcomeMessage:'Welcome to Node.js and Express.js'
+        welcomeMessage:'Welcome to Node.js and Express.js and Changes have been made'
     });
 })
 
